@@ -85,6 +85,8 @@ const FAQ = () => {
 
       {/* Logo Below FAQ Text */}
       <img src={bottomImg} alt="Logo" className="w-[49px] h-[21px] mb-[29px]" />
+
+      {/* Horizontal Divider */}
       <hr className="w-full max-w-[1147px] border-gray-600 mb-6" />
 
       {/* Accordion Section */}
@@ -114,7 +116,7 @@ const FAQ = () => {
             )}
 
             {/* Horizontal Divider */}
-            {index < accordions.length  && (
+            {index < accordions.length && (
               <hr className="border-t border-gray-600 mt-6" />
             )}
           </div>
