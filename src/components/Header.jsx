@@ -122,13 +122,13 @@ const Header = () => {
           <img
             src={bottomImage}
             alt="Image 1"
-            className="w-1/3 xl:w-[420px] lg:w-[330px] h-[384px] rounded-lg absolute lg:right-10 top-10"
+            className="w-1/3 xl:w-[420px] lg:w-[330px] h-[384px] rounded-lg absolute xl:right-10 lg:right-5 top-10"
           />
           {/* Overlapping Image */}
           <img
             src={topImage}
             alt="Image 2"
-            className="absolute -top-10 md:-top-2 lg:-right-10 md:right-32 w-1/3 lg:w-[330px] xl:w-[422px] h-[387px] rounded-lg shadow-lg"
+            className="absolute -top-10 md:-top-2 xl:right-32 lg:right-24 w-1/3 lg:w-[330px] xl:w-[422px] h-[387px] rounded-lg shadow-lg"
           />
         </div>
       </div>
